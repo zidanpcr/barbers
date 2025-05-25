@@ -1,0 +1,78 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header utama */
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* Header kedua */
+h3 {
+    color: #011327;
+    text-align: left;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+/* Gambar */
+small.Gambar{
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* KembaliLanjut */
+small.KembaliLanjut{
+    display: block;
+    font-style: italic;
+    text-align: right;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* GambarListProduct */
+.card-product {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+}
+
+/* GambarListProduct (buat gambar kesamping)*/ 
+.product-list {
+    display: flex;
+    gap: 20px; /* Jarak antara card */
+    justify-content: center;
+  }

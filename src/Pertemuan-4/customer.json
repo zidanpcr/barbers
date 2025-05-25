@@ -1,0 +1,245 @@
+[
+  {
+    "id": 1,
+    "name": "Rizky Maulana",
+    "email": "rizky@gmail.com",
+    "gender": "Laki-laki",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "details": {
+      "membership": "Gold",
+      "totalVisits": 12,
+      "favoriteBarber": "Aldi"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Nabila Putri",
+    "email": "nabila@yahoo.com",
+    "gender": "Perempuan",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "details": {
+      "membership": "Silver",
+      "totalVisits": 8,
+      "favoriteBarber": "Rico"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Dimas Saputra",
+    "email": "dimas@barbermail.com",
+    "gender": "Laki-laki",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "details": {
+      "membership": "Bronze",
+      "totalVisits": 4,
+      "favoriteBarber": "Aldi"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Ayu Lestari",
+    "email": "ayu.lestari@mail.com",
+    "gender": "Perempuan",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "details": {
+      "membership": "Gold",
+      "totalVisits": 15,
+      "favoriteBarber": "Budi"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Andi Wijaya",
+    "email": "andi.wijaya@mail.com",
+    "gender": "Laki-laki",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "details": {
+      "membership": "Silver",
+      "totalVisits": 10,
+      "favoriteBarber": "Rico"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Citra Anggraini",
+    "email": "citraa@gmail.com",
+    "gender": "Perempuan",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "details": {
+      "membership": "Bronze",
+      "totalVisits": 5,
+      "favoriteBarber": "Aldi"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Bayu Prasetya",
+    "email": "bayu.pras@gmail.com",
+    "gender": "Laki-laki",
+    "image": "https://randomuser.me/api/portraits/men/7.jpg",
+    "details": {
+      "membership": "Gold",
+      "totalVisits": 20,
+      "favoriteBarber": "Budi"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Lia Rahmawati",
+    "email": "lia.rahma@yahoo.com",
+    "gender": "Perempuan",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg",
+    "details": {
+      "membership": "Silver",
+      "totalVisits": 9,
+      "favoriteBarber": "Rico"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Fajar Nugroho",
+    "email": "fajar.ngrh@gmail.com",
+    "gender": "Laki-laki",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "details": {
+      "membership": "Bronze",
+      "totalVisits": 3,
+      "favoriteBarber": "Aldi"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Melati Saraswati",
+    "email": "melati.sara@mail.com",
+    "gender": "Perempuan",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "details": {
+      "membership": "Gold",
+      "totalVisits": 17,
+      "favoriteBarber": "Budi"
+    }
+  },
+    {
+      "id": 11,
+      "name": "Rudi Hartono",
+      "email": "rudi.hartono@mail.com",
+      "gender": "Laki-laki",
+      "image": "https://randomuser.me/api/portraits/men/11.jpg",
+      "details": {
+        "membership": "Silver",
+        "totalVisits": 11,
+        "favoriteBarber": "Rico"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Indah Sari",
+      "email": "indah.sari@gmail.com",
+      "gender": "Perempuan",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg",
+      "details": {
+        "membership": "Gold",
+        "totalVisits": 18,
+        "favoriteBarber": "Budi"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Agus Salim",
+      "email": "agus.salim@mail.com",
+      "gender": "Laki-laki",
+      "image": "https://randomuser.me/api/portraits/men/13.jpg",
+      "details": {
+        "membership": "Bronze",
+        "totalVisits": 2,
+        "favoriteBarber": "Aldi"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Putri Amelia",
+      "email": "putri.amelia@gmail.com",
+      "gender": "Perempuan",
+      "image": "https://randomuser.me/api/portraits/women/14.jpg",
+      "details": {
+        "membership": "Silver",
+        "totalVisits": 7,
+        "favoriteBarber": "Rico"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Teguh Wicaksono",
+      "email": "teguh.wicak@gmail.com",
+      "gender": "Laki-laki",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "details": {
+        "membership": "Gold",
+        "totalVisits": 21,
+        "favoriteBarber": "Budi"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Dewi Kartika",
+      "email": "dewi.kartika@yahoo.com",
+      "gender": "Perempuan",
+      "image": "https://randomuser.me/api/portraits/women/16.jpg",
+      "details": {
+        "membership": "Bronze",
+        "totalVisits": 6,
+        "favoriteBarber": "Aldi"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Reza Firmansyah",
+      "email": "reza.firmansyah@mail.com",
+      "gender": "Laki-laki",
+      "image": "https://randomuser.me/api/portraits/men/17.jpg",
+      "details": {
+        "membership": "Silver",
+        "totalVisits": 13,
+        "favoriteBarber": "Rico"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Sinta Lestari",
+      "email": "sinta.lestari@mail.com",
+      "gender": "Perempuan",
+      "image": "https://randomuser.me/api/portraits/women/18.jpg",
+      "details": {
+        "membership": "Gold",
+        "totalVisits": 19,
+        "favoriteBarber": "Budi"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Arif Maulana",
+      "email": "arifmln@gmail.com",
+      "gender": "Laki-laki",
+      "image": "https://randomuser.me/api/portraits/men/19.jpg",
+      "details": {
+        "membership": "Bronze",
+        "totalVisits": 3,
+        "favoriteBarber": "Aldi"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Bella Anggun",
+      "email": "bella.anggun@gmail.com",
+      "gender": "Perempuan",
+      "image": "https://randomuser.me/api/portraits/women/20.jpg",
+      "details": {
+        "membership": "Silver",
+        "totalVisits": 10,
+        "favoriteBarber": "Rico"
+      }
+    }
+  ]
+  
+
+

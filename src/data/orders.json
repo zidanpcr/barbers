@@ -1,0 +1,5 @@
+[
+    { "id": 1, "customer": "John Doe", "product": "Smartphone", "status": "Shipped" },
+    { "id": 2, "customer": "Jane Smith", "product": "Laptop", "status": "Processing" }
+  ]
+  
