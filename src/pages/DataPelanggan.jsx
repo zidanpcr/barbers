@@ -1,4 +1,4 @@
-import { FaUserEdit, FaTrash } from "react-icons/fa";
+import { FaUserEdit, FaTrash, FaUserCircle } from "react-icons/fa";
 
 export default function DataPelanggan() {
   const appointments = [
@@ -43,16 +43,16 @@ export default function DataPelanggan() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-blue-100 via-white to-blue-200 min-h-screen p-6 space-y-6">
+    <div className="bg-white min-h-screen p-6 space-y-6">
       <div className="bg-white p-6 rounded-2xl shadow-lg">
-        <h1 className="text-3xl font-bold text-blue-700 mb-4">Data Pelanggan</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-4">Data Pelanggan</h1>
         <p className="text-gray-500 text-sm mb-6">
           Daftar janji temu pelanggan untuk layanan barbershop Anda.
         </p>
 
         <div className="overflow-x-auto rounded-xl shadow-inner">
           <table className="min-w-full text-sm text-gray-800">
-            <thead className="bg-gradient-to-r from-blue-200 to-blue-400 text-white">
+            <thead className="bg-gray-100 text-gray-600">
               <tr>
                 <th className="px-6 py-3 text-left font-semibold">Client</th>
                 <th className="px-6 py-3 text-left font-semibold">Service</th>
@@ -64,8 +64,16 @@ export default function DataPelanggan() {
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {appointments.map((appt) => (
-                <tr key={appt.id} className="hover:bg-blue-50 transition">
-                  <td className="px-6 py-4">{appt.client}</td>
+                <tr key={appt.id} className="hover:bg-gray-50 transition">
+                  <td className="px-6 py-4 flex items-center gap-4">
+                    <div className="text-2xl text-blue-500">
+                      <FaUserCircle />
+                    </div>
+                    <div>
+                      <div className="font-semibold text-gray-800">{appt.client}</div>
+                      <div className="text-gray-500 text-xs">{appt.service}</div>
+                    </div>
+                  </td>
                   <td className="px-6 py-4">{appt.service}</td>
                   <td className="px-6 py-4">{appt.date}</td>
                   <td className="px-6 py-4">{appt.time}</td>
@@ -77,11 +85,11 @@ export default function DataPelanggan() {
                     </span>
                   </td>
                   <td className="px-6 py-4 flex gap-2">
-                    <button className="flex items-center gap-1 px-3 py-1 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition">
-                      <FaUserEdit className="text-sm" /> Edit
+                    <button className="flex items-center gap-1 px-3 py-1 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition text-xs">
+                      <FaUserEdit /> Edit
                     </button>
-                    <button className="flex items-center gap-1 px-3 py-1 bg-red-100 text-red-600 rounded-full hover:bg-red-200 transition">
-                      <FaTrash className="text-sm" /> Hapus
+                    <button className="flex items-center gap-1 px-3 py-1 bg-red-100 text-red-600 rounded-full hover:bg-red-200 transition text-xs">
+                      <FaTrash /> Hapus
                     </button>
                   </td>
                 </tr>

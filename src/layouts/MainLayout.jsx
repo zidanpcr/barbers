@@ -4,22 +4,24 @@ import Sidebar from "../components/Sidebar";
 
 export default function MainLayout() {
   return (
-    <div id="app-container" className="bg-gray-50 min-h-screen flex">
+    <div className="flex h-screen">
       {/* Sidebar */}
-      <div className="flex-none w-16 sm:w-64 bg-gradient-to-br from-blue-600 to-blue-400 shadow-lg transition-all duration-300 ease-in-out">
+      <div className="flex-none w-64 bg-gray-200 shadow-md h-screen overflow-y-auto">
         <Sidebar />
       </div>
 
       {/* Main Content */}
-      <div id="main-content" className="flex-1 bg-white p-6 overflow-hidden rounded-lg shadow-xl transform transition-transform duration-300 ease-in-out">
+      <div className="flex-1 flex flex-col h-screen overflow-hidden">
         {/* Header */}
-        <div className="bg-white shadow-md rounded-lg p-4 mb-6">
+        <div className="bg-white shadow-sm p-4">
           <Header />
         </div>
 
-        {/* Outlet for Dynamic Routing */}
-        <div className="bg-gradient-to-r from-blue-50 to-white rounded-xl shadow-md p-6">
-          <Outlet />
+        {/* Content (scrollable) */}
+        <div className="flex-1 overflow-y-auto bg-gray-100 p-6">
+          <div className="bg-white rounded-xl shadow-sm p-6">
+            <Outlet />
+          </div>
         </div>
       </div>
     </div>

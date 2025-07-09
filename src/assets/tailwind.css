@@ -30,3 +30,8 @@
     --color-biru: #3b82f6;
     --color-kuning: #f59e0b; 
 }
+
+/** Tambahkan Ini **/
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark;
+}
